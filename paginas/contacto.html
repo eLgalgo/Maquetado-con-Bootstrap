@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AnimalPhotos</title>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+      <script src="./js/bootstrap.js"></script>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Animal Photos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="user" placeholder="Usuario" aria-label="Search">
+                <input class="form-control me-2" type="password" placeholder="Contraseña" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Login</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <form action="" class="lead container-fluid">
+            <fieldset class="sobre container-fluid">
+                <label for="nombre" class="form-label">Nombre: </label>
+                <input type="text" name="nombre" class="form-control" placeholder="Josue">
+                <label for="apellido" class="form-label">Apellido: </label>
+                <input type="text" name="apellido" class="form-control" placeholder="Moreira">
+            </fieldset>
+            <fieldset class="enQue container-fluid">
+                <label for="asunto" class="form-label">Asunto: </label>
+                <input type="text" name="asunto" class="form-control" placeholder="Envio internacional">
+                <label for="correo" class="form-label">Correo electronico: </label>
+                <input type="email" name="correo" class="form-control" placeholder="donpepe@gmail.com"> <br> <br>
+                <textarea name="duda" cols="70" rows="13" class="form-control"></textarea> <br>
+                <button type="button" class="btn btn-outline-info">Enviar</button>
+            </fieldset>
+        </form>
+      </main>
+      <footer>
+        <img src="../multimedia/favicon.png" alt="mapache-icono" width="100%" class="icono">
+        <section class="redes">
+            <p>¿En que podemos ayudarte?</p>
+            <a href=""><img src="../multimedia/facebook.png" alt="facebook" width="100%"></a>
+            <a href=""><img src="../multimedia/instagram.png" alt="facebook" width="100%"></a>
+            <a href=""><img src="../multimedia/whatsap.png" alt="facebook" width="100%"></a>
+        </section>
+      </footer>
+    </body>
+</html>

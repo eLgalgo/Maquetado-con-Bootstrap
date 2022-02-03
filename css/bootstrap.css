@@ -11299,3 +11299,8 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+
+.lorem-nosotros{
+  display: flex;
+  justify-content: center;
+}
